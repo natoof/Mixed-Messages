@@ -16,8 +16,7 @@ My take at Codecademy's first portfolio project.
 Training for Javascript, Markdown and Git
 
 ## Screenshots
-To be updated
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](exemple.jpg)
 
 ## Technologies
 * JavaScript 
@@ -27,23 +26,26 @@ To be updated
 node index.js from bash
 
 ## Code Examples
-To be updated
+```javascript
+const messageMixer = () => {
+  const firstPartResult =
+    dataBase.firstPart[randNum(dataBase._firstPart.length)];
+    ...
+```
 
 ## Features
 Working features
-* To be updated
+* Version control
+* French slang greeting database
+* Database switchable to any other theme via getter/setters
 
-To-do list:
-* Choose the message theme. Possible ideas: 
+Possible developments:
+* Change the message theme. Possible ideas: 
   * Movie plot generator, 
   * Role game quest generator
-* Implement the message database (Object > keys = message parts > values = array of messages)
-* Implement the function to randomly build the message
-* Set up version control
-* Put the program together
 
 ## Status
-Project is: _in progress_
+Project is: _finished_
 
 ## Inspiration
 Based on Codecademy portfolio project
